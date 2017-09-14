@@ -11,6 +11,5 @@ public class Main {
 		int num = in.nextInt();
 		
 		Checkeven sum = new Checkeven(num);
-		System.out.println(sum.output);	
 	}
 }
