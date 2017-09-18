@@ -9,10 +9,7 @@ public class Checkeven {
 		this.num = num;
 	}
 	public void OddEven(int num) {
-		if(this.num%2 == 0) {
-			System.out.println(this.num + "Even");
-		}
-		else
-			System.out.println(this.num + "Odd");
+		double a = num*num*22/7;
+		System.out.println(a);
 	}
 }
