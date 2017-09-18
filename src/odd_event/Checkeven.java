@@ -8,8 +8,8 @@ public class Checkeven {
 	public  Checkeven(int num) {
 		this.num = num;
 	}
-	public void OddEven(int num) {
+	public double OddEven(int num) {
 		double a = num*num*22/7;
-		System.out.println(a);
+		return a;
 	}
 }

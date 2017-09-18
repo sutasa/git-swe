@@ -11,6 +11,7 @@ public class Main {
 		int num = in.nextInt();
 		
 		Checkeven sum = new Checkeven(num);
-		
+		double a =sum.OddEven(num);
+		System.out.println(a);
 	}
 }
