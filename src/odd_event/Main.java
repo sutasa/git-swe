@@ -12,11 +12,17 @@ public class Main {
 		String G;
 		if(num>=80) {
 			G="A";
+		}else if(num>=75) {
+			G="B+";
 		}else if(num>=70) {
 			G="B";
+		}else if(num>=65) {
+			G="C+";
 		}else if(num>=60)
 		{
 			G="C";
+		}else if(num>=55) {
+			G="D+";
 		}else if(num>=50)
 		{
 			G="D";
