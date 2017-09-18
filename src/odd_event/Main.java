@@ -11,6 +11,8 @@ public class Main {
 		int num = in.nextInt();
 		
 		Checkeven sum = new Checkeven(num);
+		//8888
+		
 		
 	}
 }
