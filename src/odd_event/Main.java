@@ -9,7 +9,14 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		int num = in.nextInt();
-		
-		System.out.println(num);
+		if(num < 0) {
+			System.out.println("Less than");
+		}
+		else if(num > 100) {
+			System.out.println("more than");
+		}
+		else {
+			System.out.println("Ok");
+		}
 	}
 }

@@ -9,8 +9,5 @@ public class Hello {
 		System.out.println("Hello LIF NAJA");
 		System.out.println("1+1=2");
 		System.out.println("test fern");
-		
-		
-
 	}
 }
