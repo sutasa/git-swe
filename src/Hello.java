@@ -7,9 +7,7 @@ public class Hello {
 		System.out.println("Hello p'ping2");
 		System.out.println("Hello N'fern");
 		System.out.println("Error");
-		
-		
-		
+		System.out.println("Error fern");
 
 	}
 }
