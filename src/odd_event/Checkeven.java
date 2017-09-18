@@ -1,7 +1,13 @@
 package odd_event;
 
 public class Checkeven {
+	
+	
 	public int num ;
+	
+	public  Checkeven(int num) {
+		this.num = num;
+	}
 	public void OddEven(int num) {
 		if(this.num%2 == 0) {
 			System.out.println(this.num + "Even");
