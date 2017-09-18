@@ -10,7 +10,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int num = in.nextInt();
 		
-		Checkeven sum = new Checkeven(num);
-		sum.OddEven(num);
+		System.out.println(num);
 	}
 }
