@@ -18,6 +18,10 @@ public class A {
 		{
 			this.result=(this.sale*(0.01))+this.sarary;
 		}
+		if(this.sarary < 15000 && this.sale > 100000)
+		{
+			this.result += 3000;
+		}
 		return this.result;
 	}
 }
