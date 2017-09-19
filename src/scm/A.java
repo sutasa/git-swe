@@ -3,10 +3,11 @@ package scm;
 public class A {
 	double sarary;
 	double sale;
-	double result;
-	public A(double sarary,double sale) {
-		this.sarary=sarary;
-		this.sale =sale;
+	double result =0;
+	
+	public A(double salary, double com) {
+		this.sarary=salary;
+		this.sale =com;
 	}
 	public double find() {
 		if(this.sale>50000) {
