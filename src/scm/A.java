@@ -20,6 +20,7 @@ public class A {
 		}
 		if(this.result < 18000 ) {
 			this.result = 18000 ;
+			
 		}
 		return this.result;
 	}
