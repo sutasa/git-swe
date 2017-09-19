@@ -10,9 +10,9 @@ public class A {
 		this.sale =com;
 	}
 	public double find() {
-		if(this.sale>50000) {
+		if(this.sale>100000) {
 			this.result=(this.sale*(0.03))+this.sarary;
-		}else if(this.sale>25000) {
+		}else if(this.sale>50000) {
 			this.result=(this.sale*(0.02))+this.sarary;
 		}else
 		{
